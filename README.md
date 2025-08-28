@@ -1,109 +1,103 @@
-# 🚀 Project Completed: ElectroHub Store Data Analysis | End-to-End Power BI Solution  
+# 💳 Loan Default Analysis | End-to-End Power BI Solution  
 
-I’m excited to announce the successful completion of my end-to-end **Power BI project: ElectroHub Store Analysis!** 🎉  
-
----
-
-## 🔎 Project Overview
-• Built an interactive dashboard to analyze **store sales performance** and provide a comprehensive overview 🛒  
-• Explored **regional sales trends** with map visuals 🌍  
-• Delivered insights into **product categories, customer behavior, and profitability** 📊  
-• Developed KPIs for revenue, profit, growth, and store-level performance ⚡  
+🚀 Project Completed: Loan Default Analysis | Power BI Dashboard 🎉  
+I’m excited to share my **end-to-end BI solution** where I analyzed loan default risks, applicant profiles, and financial trends.  
 
 ---
 
-## 🛠️ Tools & Technologies Used
-• **Microsoft SQL Server** → Source data cleaning & validation ✅  
-• **Power Query Editor** → Data shaping, transformation, and standardization 🔄  
-• **Power BI Desktop** → Report building & interactive dashboards 🖥️  
-• **Power BI Service** → Cloud publishing & sharing ☁️  
-• **DAX (Data Analysis Expressions)** → Advanced calculations & KPIs 📈  
-• **Star Schema Modeling** → Optimized data model for faster reporting 📐  
+## 🔎 Project Overview  
+The goal of this project was to help financial institutions **identify risk patterns** and **understand borrower behavior**.  
+
+Key objectives:  
+- 📊 Visualized **loan default trends** across time and regions  
+- 👤 Analyzed **borrower demographics & financial profiles**  
+- 🏦 Built a **Financial Risk Matrix** to assess default probabilities  
+- 📈 Created **interactive dashboards** for decision-makers  
 
 ---
 
-## 📊 Visualizations
-The dashboard leverages multiple visuals across **different report pages**:  
-- Line charts → **Sales & Profit Trends Over Time** ⏳  
-- Map visuals → **Geographical sales distribution** 🌍  
-- Bar/Column charts → **Top & Bottom performing products & stores** 📦  
-- Donut & Pie charts → **Category contribution to sales & profit margins** 🍩  
-- Tables & Cards → **Quick KPI overviews & drill-through analysis** 🔍  
-- Interactive Slicers → **Dynamic filtering by region, category, and store** 🎛️  
+## 🛠️ Tools & Technologies Used  
+- **Microsoft SQL Server** → Data ingestion & preprocessing (250,000+ records)  
+- **Excel** → Initial validation and dataset checks  
+- **Power Query Editor** → ETL, cleaning, and shaping  
+- **Power BI Desktop** → Dashboard design and measures  
+- **Power BI Service** → Dataflows, publishing, and refresh scheduling  
+- **DAX (Data Analysis Expressions)** → KPIs, risk calculations, custom metrics  
+- **Standard Mode Gateway** → Secure data connectivity  
 
 ---
 
-## ✨ Dashboard Highlights
-• **Store-Level Insights**: Compare sales & profit across regions and locations  
-• **Product Category Breakdown**: Identify top-selling and underperforming products  
-• **Customer Insights**: Returning vs. new customer trends 👥  
-• **Profitability Tracking**: Margin analysis with discount vs. profit impact 💰  
-• **Dynamic Trends**: Drill down from yearly to monthly & daily sales performance  
-• **Forecasting Ready**: Basis for demand prediction and seasonal analysis 📆  
+## 📊 Visualizations in Report  
+- 📈 **Line Charts** – Loan trends over time  
+- 🧩 **Decomposition Tree** – Drill down into key risk drivers  
+- 🎗 **Ribbon Chart** – Ranking shifts in loan categories  
+- 📉 **Area Charts** – Default % over time  
+- 🍩 **Donut Charts** – Loan type and repayment distribution  
+- 📋 **Tables & Cards** – KPI snapshots (Total Loans, Default %, Risk Scores)  
 
 ---
 
-## 📸 Dashboard Preview  
-
-The **Loan Default Analysis** dashboard is structured across multiple pages, each providing unique insights into customer risk, financial performance, and loan default patterns. Below is a preview of the key report pages:  
-
----
-
-### 🔹 1. Loan Default Overview  
-👉 A high-level summary of loan disbursement, repayment status, and overall default trends.  
-![Loan Default Overview](Loan-Default-Overview.png)  
+## ✨ Dashboard Highlights  
+- 📂 Built on a **large, complex dataset** (250K+ entries)  
+- 🔎 Provided **multiple perspectives**: borrower, financial institution, regional trends  
+- 🧮 Advanced filtering powered by **ALLEXCEPT & CALCULATE** in DAX  
+- ⏰ **Scheduled & incremental refreshes** for near real-time reporting  
+- 📊 Designed for **C-level executives & analysts** to track financial health  
 
 ---
 
-### 🔹 2. Financial Profile Analysis  
-👉 Deep dive into borrower demographics, income levels, debt-to-income ratios, and financial risk assessment.  
-![Financial Profile](Financial-Profile.png)  
+## 📌 Dashboard Preview  
+
+### 1️⃣ Loan Default Overview  
+![Loan Default Overview](assets/Loan-Default-Overview.png)  
+
+### 2️⃣ Financial Profile Analysis  
+![Financial Profile](assets/Financial-Profile.png)  
+
+### 3️⃣ Decomposition Tree  
+![Decomposition Tree](assets/Decomposition-tree.png)  
+
+### 4️⃣ Ribbon Chart   
+![Ribbon Chart](assets/Ribbon-chart.png)  
 
 ---
 
-### 🔹 3. Decomposition Tree  
-👉 An interactive breakdown that allows drilling into **why defaults occur** by exploring attributes such as region, age group, loan type, and income band.  
-![Decomposition Tree](Decomposition-tree.png)  
+## 🧮 Key DAX Functions Used  
+- **CALCULATE** → Contextual loan KPIs  
+- **ALLEXCEPT** → Custom filtering for borrower segmentation  
+- **IF / BLANK** → Handling missing loan attributes  
+- **RANKX** → Ranking loan categories in Ribbon Charts  
+- **AVERAGE / SUMX** → Risk scoring metrics  
+- **DATE functions (YEAR, MONTH)** → Trend breakdowns  
 
 ---
 
-### 🔹 4. Ribbon Chart (Loan Status Trends)  
-👉 Visualizing the **shifts in loan status rankings over time**, highlighting which categories dominate defaults in different periods.  
-![Ribbon Chart](Ribbon-chart.png)  
+## 📈 Outcomes Achieved  
+1. **Clear visibility** into loan defaults by category, borrower profile, and time  
+2. **Financial risk segmentation** for high-risk vs. low-risk applicants  
+3. **Interactive insights** to support lending strategies  
+4. **Optimized reporting** with automated refresh & scalable dataset  
 
 ---
 
-✨ Together, these pages empower decision-makers with **clear visibility into borrower behavior, risk factors, and evolving loan performance trends**. 
-
-
-## 📐 Core DAX Functions Used
-- `SUM()` → Total Sales & Profit  
-- `AVERAGE()` → Average Discount & Price  
-- `COUNT()` → Transaction & Customer Counts  
-- `DIVIDE()` → Safe percentage/profit calculations  
-- `CALCULATE()` → Context-based measures  
-- `RELATED()` → Bringing attributes across tables  
-- `RANKX()` → Ranking stores/products by KPIs  
+## 🚀 Future Enhancements  
+- 🔮 Predictive modeling for loan default forecasting (ML integration)  
+- 🌍 Geo-mapping for regional loan risk heatmaps  
+- ⚡ Integration with **Azure Synapse / Databricks** for advanced analytics  
 
 ---
 
-## 🛤 Roadmap
-🔹 Add **AI-driven forecasting** for sales & customer churn prediction  
-🔹 Deploy on **Power BI Service** with scheduled refresh ⏰  
-🔹 Create **mobile-optimized dashboard version** 📱  
-🔹 Expand analysis to include **inventory & supply chain metrics**  
-
----
-
-## 📬 Contact
-**gmule014-dotcom**  
+## 📬 Contact  
+👤 **gmule014-dotcom**  
 📧 gmule014@gmail.com  
-🔗 GitHub Repo: [ElectroHub Store Analysis](https://github.com/gmule014-dotcom/ElectroHub-Store-Analysis)  
+🔗 [GitHub Repository](https://github.com/gmule014-dotcom/Loan-Default-Analysis)  
 
 ---
 
-## 🙏 Acknowledgments
-- [Power BI Community](https://community.powerbi.com)  
+## 🙌 Acknowledgments  
+- Microsoft SQL Server  
+- Power BI Community  
+- SQLBI for advanced DAX references  
 
 ---
 
